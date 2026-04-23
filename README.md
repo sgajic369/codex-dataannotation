@@ -8,15 +8,14 @@ This repository contains
 ### Known Incompletes:
 * **Missing Error Handling:** Most functions in the `/src/logic` directory lack try/catch blocks. Input validation is currently bypassed for speed of development.
 * **Incomplete Features:** The `DataExporter` module is a stub; it defines the class structure but the `export()` methods are currently empty.
-* **TODO Bloat:** You will find several `// TODO:` comments regarding performance optimization and security patches that have not been addressed.
+
 
 ### Structural Layout:
 Multi-contributor environment, different modules follow different design patterns:
 * `UserAuth.js` follows a strictly **Functional Programming** pattern using factory functions.
 * `DatabaseManager.js` follows a **Classical OOP** pattern with heavy use of inheritance and classes.
-* Naming conventions vary between `camelCase` and `snake_case` depending on which subdirectory you are viewing.
 
 ## Installation
 Setup Script:
 ```bash
-git clone [https://github.com/sgajic369/Sample.git](https://github.com/sgajic369/Sample.git)
+git clone 
